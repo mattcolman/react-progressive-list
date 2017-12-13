@@ -1,0 +1,26 @@
+{
+  "name": "react-progressive-list",
+  "version": "1.0.0",
+  "description": "react-progressive-list",
+  "main": "ReactProgressiveList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcolman/react-progressive-list.git"
+  },
+  "keywords": [
+    "react",
+    "list"
+  ],
+  "author": "Matt Colman <matt@mattcolman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattcolman/react-progressive-list/issues"
+  },
+  "homepage": "https://github.com/mattcolman/react-progressive-list#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
