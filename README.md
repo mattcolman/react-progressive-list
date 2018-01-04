@@ -1,6 +1,6 @@
 # React Progressive List
 
-![ReactProgressiveList](https://raw.githubusercontent.com/mattcolman/phaser-progressive-list/master/react-progressive-list.jpg)
+![ReactProgressiveList](https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/react-progressive-list.jpg)
 
 [Phaser Progressive List](https://www.npmjs.com/package/react-progressive-list)
 is an alternative to
