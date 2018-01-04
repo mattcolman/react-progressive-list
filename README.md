@@ -25,9 +25,8 @@ two possible scenarios:
     <ReactProgressiveList
       itemRenderer={this.renderRow}
       length={400}
-      idleAmount={0}
-      initialAmount={20}
-      progressiveAmount={10}
+      initialAmount={40}
+      progressiveAmount={20}
       renderLoader={() => <Spinner />}
       useWindowScroll={false}
     />
