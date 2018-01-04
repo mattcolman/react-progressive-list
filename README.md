@@ -29,7 +29,7 @@ two possible scenarios:
         initialAmount={40}
         progressiveAmount={20}
         renderLoader={() => <Spinner />}
-        useWindowScroll={false}
+        useWindowScroll
       />
     );
   }
