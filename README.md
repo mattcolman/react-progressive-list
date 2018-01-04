@@ -22,13 +22,17 @@ two possible scenarios:
   }
 
   render() {
-    <ReactProgressiveList
-      itemRenderer={this.renderRow}
-      length={400}
-      initialAmount={40}
-      progressiveAmount={20}
-      renderLoader={() => <Spinner />}
-      useWindowScroll={false}
-    />
+    return (
+      <ParentDiv>
+        <ReactProgressiveList
+          itemRenderer={this.renderRow}
+          length={400}
+          initialAmount={40}
+          progressiveAmount={20}
+          renderLoader={() => <Spinner />}
+          useWindowScroll={false}
+        />
+      </ParentDiv>
+     );
   }
 ```
