@@ -1,4 +1,8 @@
-![ReactProgressiveList](https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/react-progressive-list.jpg)
+<div align="center">
+    <img alt="react-progressive-list" src="https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/react-progressive-list.jpg" height="150px" />
+</div>
+
+<br />
 
 [React Progressive List](https://www.npmjs.com/package/react-progressive-list)
 is an alternative to
