@@ -1,8 +1,6 @@
-# React Progressive List
-
 ![ReactProgressiveList](https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/react-progressive-list.jpg)
 
-[Phaser Progressive List](https://www.npmjs.com/package/react-progressive-list)
+[React Progressive List](https://www.npmjs.com/package/react-progressive-list)
 is an alternative to
 [React Virtualized](https://github.com/bvaughn/react-virtualized). It wins in
 two possible scenarios:
