@@ -14,6 +14,10 @@ two possible scenarios:
 2. You've tried react-virtualized and found it to be overly complicated for your
    basic needs.
 
+## Install
+
+`yarn add react-progressive-list`
+
 ## Example
 
 ```
