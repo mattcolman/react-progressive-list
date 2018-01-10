@@ -15,7 +15,7 @@ two possible scenarios:
    basic needs.
 
 <div align="center">
-    <img alt="example" src="https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/example.gif" height="200px" />
+    <img alt="example" src="https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/example.gif" height="300px" />
 </div>
 
 <br />
