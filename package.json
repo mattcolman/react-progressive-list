@@ -1,6 +1,6 @@
 {
   "name": "react-progressive-list",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "react-progressive-list",
   "main": "ReactProgressiveList.js",
   "scripts": {
