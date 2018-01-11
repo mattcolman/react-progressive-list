@@ -16,7 +16,7 @@ two possible scenarios:
 
 ## Demo
 
-`http://mattcolman.com/react-progressive-list-example`
+[Demo Site](http://mattcolman.com/labs/react-progressive-list)
 
 <div align="center">
     <img alt="example" src="https://raw.githubusercontent.com/mattcolman/react-progressive-list/master/example.gif" height="300px" />
