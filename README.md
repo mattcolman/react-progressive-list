@@ -51,11 +51,14 @@ two possible scenarios:
 
 ### Props
 
-| Property              | Type                          | Default | Description                                                                                            |
-| :-------------------- | :---------------------------- | :------ | :----------------------------------------------------------------------------------------------------- |
-| `initialRowCount`     | number                        | 10      | initial number of rows to display                                                                      |
-| `progressiveRowCount` | number                        | 10      | number of rows to render each time a new batch is requested                                            |
-| `renderItem`          | (index: number) => React.Node | none    | function that returns the row to render                                                                |
-| `renderLoader`        | () => React.Node              | none    | function that returns a loader to render                                                               |
-| `totalRowCount`       | number                        | none    | the length of your list                                                                                |
-| `useWindowScroll`     | boolean                       | false   | When true will use a scroll listener on the window, otherwise will use a scroll listener on the parent |
+| Property            | Type                          | Default    | Description                                                                                            |
+| :------------------ | :---------------------------- | :--------- | :----------------------------------------------------------------------------------------------------- |
+| `className`         | string                        | undefined  | className to apply to the parent div                                                                   |
+| `initialAmount`     | number                        | 10         | initial number of rows to display                                                                      |
+| `progressiveAmount` | number                        | 10         | number of rows to render each time a new batch is requested                                            |
+| `idleAmount`        | number                        | 0          | number of rows to render when the browser is idle (limited browser support for requestIdleCallback)    |
+| `isActive`          | boolean                       | true       | setting to false will render the full list without any progressive loading                             |
+| `renderItem`        | (index: number) => React.Node | required   | function that returns the row to render                                                                |
+| `renderLoader`      | () => React.Node              | () => null | function that returns a loader to render                                                               |
+| `rowCount`          | number                        | required   | the length of your list                                                                                |
+| `useWindowScroll`   | boolean                       | false      | When true will use a scroll listener on the window, otherwise will use a scroll listener on the parent |
