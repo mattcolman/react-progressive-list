@@ -38,11 +38,11 @@ two possible scenarios:
   render() {
     return (
       <ReactProgressiveList
-        initialRowCount={40}
-        progressiveRowCount={20}
+        initialAmount={40}
+        progressiveAmount={20}
         renderItem={this.renderRow}
         renderLoader={() => <Spinner />}
-        totalRowCount={400}
+        rowCount={400}
         useWindowScroll
       />
     );
