@@ -1,9 +1,11 @@
 {
   "name": "react-progressive-list",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-progressive-list",
-  "main": "ReactProgressiveList.js",
+  "main": "dist/ReactProgressiveList.js",
   "scripts": {
+    "compile": "babel src -d dist",
+    "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,16 @@
   "homepage": "https://github.com/mattcolman/react-progressive-list#readme",
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-flow-react-proptypes": "^13.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
