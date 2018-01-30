@@ -3,8 +3,11 @@
 </div>
 
 <br />
+
 Read the [blog post](https://medium.com/@mattcolman/an-alternative-to-react-virtualized-fba2299f10b1)
+
 <br />
+
 [React Progressive List](https://www.npmjs.com/package/react-progressive-list)
 is an alternative to
 [React Virtualized](https://github.com/bvaughn/react-virtualized). It wins in
